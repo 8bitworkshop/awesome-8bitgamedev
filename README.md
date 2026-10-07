@@ -355,7 +355,7 @@ and
 
 * [Apple2fpga: Reconstructing an Apple II+ on an FPGA](https://www.cs.columbia.edu/~sedwards/apple2fpga/)
 
-* [fpga-examples](https://github.com/sehugg/fpga-examples) - These are some of the Verilog examples from the book "Designing Video Game Hardware in Verilog" ported to CRT monitor timing and tested against the IceStorm tools.
+* [fpga-examples](https://github.com/8bitworkshop/fpga-examples) - These are some of the Verilog examples from the book "Designing Video Game Hardware in Verilog" ported to CRT monitor timing and tested against the IceStorm tools.
 
 * [Silice](https://github.com/sylefeb/Silice) - A language for designing FPGA hardware, with retro game and video examples.
 
@@ -405,13 +405,13 @@ Targets over 80 different machine families.
 
 * [ASM6](https://github.com/freem/asm6f) - 6502 assembler primarily targeted at NES/Famicom development.
 
-* [zmac](https://github.com/sehugg/zmac) - Macro cross-assembler for the Zilog Z80 microprocessor, sometimes used for Astrocade development.
+* [zmac](https://github.com/8bitworkshop/zmac) - Macro cross-assembler for the Zilog Z80 microprocessor, sometimes used for Astrocade development.
 
 * [Kick Assembler](https://theweb.dk/KickAssembler/) - A Java-based 6502/6510 assembler for the C64 with macros, scripting, and graphics conversion helpers.
 
 * [MADS](https://github.com/tebe6502/Mad-Assembler) - A multi-pass 6502/65816 cross-assembler used mostly for Atari 8-bit development.
 
-* [ACME](https://github.com/sehugg/acme) - A 6502/65C02/65816 cross-assembler popular for C64 development.
+* [ACME](https://github.com/8bitworkshop/acme) - A 6502/65C02/65816 cross-assembler popular for C64 development.
 
 * [xa](https://www.floodgap.com/retrotech/xa/) - A 6502/65C02/65816 cross-assembler.
 
@@ -533,7 +533,7 @@ Targets over 80 different machine families.
 
 * [Lou's Psuedo-3D Page](https://www.extentofthejam.com/pseudo/) - How to draw 3-D roads
 
-* [8bit-tools](https://github.com/sehugg/8bit-tools/) - Command-line tools that go along with 8bitworkshop books
+* [8bit-tools](https://github.com/8bitworkshop/8bit-tools/) - Command-line tools that go along with 8bitworkshop books
 
 ## Contributing
 
