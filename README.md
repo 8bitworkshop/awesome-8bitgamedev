@@ -421,6 +421,8 @@ Targets over 80 different machine families.
 
 * [naken_asm](https://github.com/mikeakohn/naken_asm) - An assembler and disassembler for many CPUs and microcontrollers.
 
+* [ASM80](https://beta.asm80.com) - Free browser-based cross-assembler, emulator and debugger for classic 8-bit CPUs (Z80, 8080, 6502, 6809 and others). Includes built-in emulators for real machines (ZX Spectrum, TEC-1, etc.), integrated debugger, and online project management. No installation required. Assembler core is [open source (MIT)](https://github.com/asm80/asm80-core).
+
 ### Emulators
 
 * [MAMEDev.org](https://www.mamedev.org/) - Home of the MAME/ MESS mega-emulator.
