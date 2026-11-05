@@ -184,6 +184,8 @@ and
 
 * [Pan Docs](https://gbdev.io/pandocs/) - The most comprehensive Game Boy technical reference.
 
+* [gb-test-roms](https://github.com/retrio/gb-test-roms) - Collection of Game Boy test ROMs (CPU instructions, timing, sound) for checking emulators.
+
 * [GB Dev](https://gbdev.io/) - Community hub with [awesome-gbdev](https://github.com/gbdev/awesome-gbdev), [RGBDS](https://rgbds.gbdev.io/), a [GB ASM Tutorial](https://gbdev.io/gb-asm-tutorial/), and the [Homebrew Hub](https://hh.gbdev.io) game archive.
 
 * [GBDK-2020](https://github.com/gbdk-2020/gbdk-2020) - C compiler, libraries, and tools for the Game Boy, Game Boy Color, Master System, Game Gear, and NES.
@@ -344,11 +346,15 @@ and
 
 * [6502/6510 Maths](https://codebase64.net/doku.php?id=base:6502_6510_maths)
 
+* 6502 multiplication: [fast 8x8 to 16-bit without tables](https://codebase64.net/doku.php?id=base:8bit_multiplication_16bit_product_fast_no_tables) and [Niels Möller's 6502 multiplication notes](https://www.lysator.liu.se/~nisse/misc/6502-mul.html)
+
 ### Z80
 
 * Z80 Heaven - [Tutorials](https://z80-heaven.wikidot.com/system:tutorials) and [instruction set](https://z80-heaven.wikidot.com/instructions-set)
 
 * [Z80 instruction set](https://clrhome.org/table/) - Searchable table
+
+* [Z80 Optimized Routines](https://github.com/Zeda/Z80-Optimized-Routines) - Small, fast Z80 routines for multiply, divide, square root, random numbers, and more.
 
 * [Z80 User Manual](https://www.zilog.com/docs/z80/um0080.pdf) - The official Zilog manual, and the [Undocumented Z80 Documented](https://web.archive.org/web/20261010164936/http://www.myquest.nl/z80undocumented/z80-documented-v0.91.pdf) (PDF).
 
