@@ -522,6 +522,9 @@ Targets over 80 different machine families.
 
 * [GoatTracker 2](https://sourceforge.net/projects/goattracker2/) - A C64 SID music tracker.
 
+* [Musicotron](https://8bitworkshop.com/musicotron/) - Convert MIDI files into 8-bit chiptune
+  songs, export in the 8bitworkshop music player format.
+
 * [vgm2vgr3](https://github.com/8bitws/vgm2vgr3) - Compresses VGM chiptune files into a compact register format with 6502 and Z80 decoders, for the NES, Game Boy, ColecoVision, C64, Atari POKEY, and MSX.
 
 ### Libraries
