@@ -39,6 +39,7 @@ A curated list of awesome resources for 8-bit retro game development.
 - [Hardware](#hardware)
   - [6502](#6502)
   - [Z80](#z80)
+  - [6809](#6809)
   - [TMS9918A](#tms9918a)
   - [FPGA/HDL](#fpga-hdl)
   - [Microcontrollers](#microcontrollers)
@@ -117,6 +118,12 @@ and
 * [ColecoVision.dk](https://www.colecovision.dk/tools.htm) - Tools and homebrew source code.
 
 ## Vectrex
+
+* [PlayVectrex](http://www.playvectrex.com/) - Vectrex community site, including Chris Salomon's [BIOS disassembly](http://www.playvectrex.com/designit/chrissalo/bios.asm), [memory map](http://www.playvectrex.com/designit/chrissalo/memorymap.htm), and [sound playing notes](http://www.playvectrex.com/designit/chrissalo/soundplaying.htm).
+
+* [Vectrex Museum](http://vectrexmuseum.com/) - History, and the [internal hardware description](http://vectrexmuseum.com/share/coder/other/TEXT/VECTREX/INTERNAL.TXT) for coders.
+
+* [VIDE](http://vide.malban.de/) - Vectrex Integrated Development Environment, with a [tutorial on the BIOS](http://vide.malban.de/help/vectrex-tutorial-ii-starting-with-bios).
 
 * [Setting up a modern toolchain for Vectrex development with CMOC](https://optixx.org/2019/11/02/a-modern-toolchain-for-vectrex-development/)
 
@@ -301,11 +308,19 @@ and
 
 * [The MSX Red Book](https://github.com/gseidler/The-MSX-Red-Book/blob/master/the_msx_red_book.md) - The aim of this book is to provide a description of the standard MSX hardware and software at a level of detail sufficient to satisfy that most demanding of users, the machine code programmer.
 
+* [SDCC on the MSX Wiki](https://www.msx.org/wiki/SDCC) - Using SDCC to build MSX programs.
+
+* [MSX Slots](https://www.msx.org/wiki/Slots) and [cartridge slot](https://www.msx.org/wiki/MSX_Cartridge_slot) documentation.
+
 * [awesome-msx](https://github.com/fr3nd/awesome-msx) - an awesome list about MSX!
 
 ### CPC
 
 * [cpctelera](https://github.com/lronaldo/cpctelera) - Amstrad CPC game engine for C and Assembler developers, integrated into 8bitworkshop
+
+* [CPCWiki](https://www.cpcwiki.eu/) - Hardware and programming reference, e.g. the [Gate Array](https://www.cpcwiki.eu/index.php/Gate_Array).
+
+* [cpc-dev-tool-chain](https://github.com/cpcitor/cpc-dev-tool-chain) - Scripts to build a cross-development toolchain (SDCC, etc.) for the Amstrad CPC.
 
 ## Arcade Games
 
@@ -335,6 +350,20 @@ and
 
 * [Z80 instruction set](https://clrhome.org/table/) - Searchable table
 
+* [Z80 User Manual](https://www.zilog.com/docs/z80/um0080.pdf) - The official Zilog manual, and the [Undocumented Z80 Documented](https://web.archive.org/web/20261010164936/http://www.myquest.nl/z80undocumented/z80-documented-v0.91.pdf) (PDF).
+
+### 6809
+
+* [asm6809](https://www.6809.org.uk/asm6809/doc/asm6809.shtml) - A 6809 cross-assembler by Ciaran Anscomb, also the author of XRoar.
+
+* [LWTOOLS](https://www.lwtools.ca/) - Assembler (LWASM) and linker for the 6809, used by CMOC.
+
+* [CMOC](https://perso.b2b2c.ca/~sarrazip/dev/cmoc.html) - C-like compiler for the 6809; see [Compilers](#compilers).
+
+* [ChibiAkumas 6809 Tutorials](https://www.chibiakumas.com/6809/) - Assembly lessons for the Dragon/CoCo, Fujitsu FM-7, and Vectrex.
+
+* 6809 systems covered here: [Vectrex](#vectrex) and [TRS-80 CoCo and Dragon](#trs-80-coco-and-dragon). Williams arcade boards (Defender, Robotron) also use it; see [Arcade Games](#arcade-games).
+
 ### TMS9918A
 
 * [Texas Instruments TMS9918A VDP](http://bifi.msxnet.org/msxnet//tech/tms9918a.txt) info by Sean Young. Also see [here](https://www.unige.ch/medecine/nouspikel/ti99/tms9918a.htm).
@@ -358,6 +387,8 @@ and
 * [fpga-examples](https://github.com/8bitworkshop/fpga-examples) - These are some of the Verilog examples from the book "Designing Video Game Hardware in Verilog" ported to CRT monitor timing and tested against the IceStorm tools.
 
 * [Silice](https://github.com/sylefeb/Silice) - A language for designing FPGA hardware, with retro game and video examples.
+
+* [Icestudio](https://github.com/FPGAwars/icestudio) - Visual editor for open-source FPGA designs (IceStorm toolchain).
 
 * [Verilator](https://www.veripool.org/wiki/verilator) - Fast open-source Verilog simulator, used by 8bitworkshop for hardware simulation.
 
@@ -394,6 +425,8 @@ Targets over 80 different machine families.
 * [Oscar64](https://github.com/drmortalwombat/oscar64/) - A C/C++ compiler for the C64 and other 6502 systems.
 
 * [FastBasic](https://github.com/dmsc/fastbasic) - A fast BASIC interpreter and cross-compiler for the Atari 8-bit.
+
+* [CVBasic](https://github.com/nanochess/CVBasic) - BASIC compiler for the ColecoVision, MSX, SG-1000 and other TMS9918A systems.
 
 * [Wiz](https://github.com/wiz-lang/wiz) - A high-level assembly language for the 6502, Z80, SM83, 65816, and other CPUs.
 
@@ -446,6 +479,10 @@ Targets over 80 different machine families.
 * [jspce](https://github.com/yhzmr442/jspce) - PC Engine emulator in JavaScript.
 
 * [XRoar](https://www.6809.org.uk/xroar/) - Emulator for the Dragon, Tandy CoCo, and MC-10.
+
+* [openMSX](https://openmsx.org/) - MSX emulator; see the [setup manual](https://openmsx.org/manual/setup.html).
+
+* [Js99er](https://github.com/Rasmus-M/Js99er) - TI-99/4A emulator in JavaScript.
 
 ### IDEs
 
