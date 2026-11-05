@@ -180,6 +180,8 @@ and
 
 * [devkitSMS](https://github.com/sverx/devkitSMS) - C libraries and tools for SDCC targeting the Master System, Game Gear, SG-1000, SC-3000, and ColecoVision.
 
+* [Power Strike (SMS) teardown](https://github.com/noema-lands/power-strike-teardown) - Reverse-engineering notes for Power Strike (1991): boot kernel, hybrid YM2413+PSG sound engine, RLE compressor, and an in-place tile reskin built from the ROM.
+
 ### Game Boy
 
 * [Pan Docs](https://gbdev.io/pandocs/) - The most comprehensive Game Boy technical reference.
