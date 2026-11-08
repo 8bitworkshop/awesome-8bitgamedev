@@ -402,6 +402,8 @@ and
 
 * [Uzebox](https://uzebox.org/) - An open-source micro game platform based on the ATmega644 chip.
 
+* [symbolasm](https://github.com/raphlinus/symbolasm) - A structured mid-level language for the RP2350.
+
 ## Development Tools
 
 ### Compilers
